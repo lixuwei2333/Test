@@ -3,9 +3,9 @@ package com.misaka.libmanager.po;
 import java.sql.Date;
 
 public class Borrow {
-	private String id;
-	private String account;
-	private Date time;
+	private String id;//账号
+	private String account;//密码
+	private Date time;//borrow时间
 	public Borrow(String id, String account, Date time) {
 		super();
 		this.id = id;
