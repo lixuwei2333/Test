@@ -18,6 +18,7 @@ public class Book {
 	}
 	public String getName() {
 		return name;
+		/*我在这加注释*/
 	}
 	public void setName(String name) {
 		this.name = name;
